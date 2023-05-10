@@ -1,0 +1,11 @@
+name: 'TEN7 Blueprint'
+type: module
+description: 'Provides custom configurations and code to build Drupal site blueprints using the content_model_documentation module.'
+core: 9.x
+core_version_requirement: ^9 || ^10
+package: 'TEN7'
+dependencies:
+  - drupal:content_model_documentation
+  - drupal:config_views
+  - drupal:path_alias
+  - drupal:views
