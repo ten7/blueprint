@@ -1,0 +1,13 @@
+{
+  "name": "ten7/blueprint",
+  "description": "Provides configuration and custom code to develop a Drupal site blueprint.",
+  "type": "drupal-module",
+  "homepage": "https://github.com/ten7/blueprint",
+  "support": {
+    "issues": "https://github.com/ten7/blueprint/issues"
+  },
+  "require": {
+    "drupal/content_model_documentation:^1.0"
+  },
+  "license": "GPL-3.0+"
+}
