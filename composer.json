@@ -7,7 +7,7 @@
     "issues": "https://github.com/ten7/blueprint/issues"
   },
   "require": {
-    "drupal/content_model_documentation:^1.0"
+    "drupal/content_model_documentation": "^1.0"
   },
   "license": "GPL-3.0+"
 }
