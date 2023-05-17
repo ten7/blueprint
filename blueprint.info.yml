@@ -5,6 +5,8 @@ core_version_requirement: ^9 || ^10
 package: 'TEN7'
 dependencies:
   - drupal:content_model_documentation
+  - drupal:content_moderation
   - drupal:config_views
   - drupal:path_alias
   - drupal:views
+  - drupal:workflows
