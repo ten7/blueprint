@@ -1,0 +1,30 @@
+uuid: 64de76f7-8a31-4c6a-8b84-6003aa3aa526
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_visibility_groups
+    - blueprint
+    - system
+  theme:
+    - gin
+id: blueprintfieldsbyentitybundle
+theme: gin
+region: content
+weight: -1
+provider: null
+plugin: blueprint_fields_by_entity_bundle
+settings:
+  id: blueprint_fields_by_entity_bundle
+  label: 'Blueprint: Fields by Entity Bundle'
+  label_display: '0'
+  provider: blueprint
+visibility:
+  condition_group:
+    id: condition_group
+    negate: false
+    block_visibility_group: ''
+  request_path:
+    id: request_path
+    negate: false
+    pages: '/admin/structure/types/manage/*/document'
