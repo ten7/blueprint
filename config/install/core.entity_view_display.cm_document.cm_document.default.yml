@@ -1,0 +1,35 @@
+uuid: 6e8a4ec9-6791-47e9-a450-b3a2667272e9
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.cm_document.cm_document.field_blueprint_link
+  module:
+    - content_model_documentation
+    - link
+    - text
+id: cm_document.cm_document.default
+targetEntityType: cm_document
+bundle: cm_document
+mode: default
+content:
+  field_blueprint_link:
+    type: link
+    label: above
+    settings:
+      trim_length: null
+      url_only: false
+      url_plain: false
+      rel: '0'
+      target: _blank
+    third_party_settings: {  }
+    weight: 2
+    region: content
+  notes:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

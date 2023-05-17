@@ -1,0 +1,33 @@
+uuid: 297d6494-d83f-445b-8dac-86cc3278015a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.cm_document.cm_document.field_blueprint_link
+  module:
+    - content_model_documentation
+    - link
+    - text
+id: cm_document.cm_document.default
+targetEntityType: cm_document
+bundle: cm_document
+mode: default
+content:
+  field_blueprint_link:
+    type: link_default
+    weight: 26
+    region: content
+    settings:
+      placeholder_url: ''
+      placeholder_title: ''
+    third_party_settings: {  }
+  notes:
+    type: text_textarea
+    weight: -13
+    region: content
+    settings:
+      rows: 4
+      placeholder: ''
+    third_party_settings: {  }
+hidden:
+  user_id: true
