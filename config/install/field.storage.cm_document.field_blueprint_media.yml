@@ -1,0 +1,20 @@
+uuid: 981d83d3-6022-4799-bcd2-f3a2f9abd748
+langcode: en
+status: true
+dependencies:
+  module:
+    - content_model_documentation
+    - media
+id: cm_document.field_blueprint_media
+field_name: field_blueprint_media
+entity_type: cm_document
+type: entity_reference
+settings:
+  target_type: media
+module: core
+locked: false
+cardinality: -1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

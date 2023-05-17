@@ -7,6 +7,8 @@ dependencies:
   module:
     - content_model_documentation
     - link
+_core:
+  default_config_hash: HKVktWZcLf7F5dut38OThUqRIraVJUi5MTP-pr-A5Ro
 id: cm_document.cm_document.field_blueprint_link
 field_name: field_blueprint_link
 entity_type: cm_document

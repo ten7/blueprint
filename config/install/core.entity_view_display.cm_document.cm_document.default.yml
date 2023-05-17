@@ -4,15 +4,23 @@ status: true
 dependencies:
   config:
     - field.field.cm_document.cm_document.field_blueprint_link
+    - field.field.cm_document.cm_document.field_blueprint_media
   module:
     - content_model_documentation
     - link
     - text
+_core:
+  default_config_hash: BpXkMW0TEY9j6IFHAC8eqJNDLTn6LNH8aHEVaqTwuNw
 id: cm_document.cm_document.default
 targetEntityType: cm_document
 bundle: cm_document
 mode: default
 content:
+  content_moderation_control:
+    settings: {  }
+    third_party_settings: {  }
+    weight: -20
+    region: content
   field_blueprint_link:
     type: link
     label: above
@@ -24,6 +32,15 @@ content:
       target: _blank
     third_party_settings: {  }
     weight: 2
+    region: content
+  field_blueprint_media:
+    type: entity_reference_entity_view
+    label: above
+    settings:
+      view_mode: default
+      link: false
+    third_party_settings: {  }
+    weight: 3
     region: content
   notes:
     type: text_default
