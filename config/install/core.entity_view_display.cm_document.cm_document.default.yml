@@ -3,7 +3,6 @@ status: true
 dependencies:
   config:
     - field.field.cm_document.cm_document.field_blueprint_link
-    - field.field.cm_document.cm_document.field_blueprint_media
   module:
     - content_model_documentation
     - link
