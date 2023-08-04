@@ -590,6 +590,17 @@ display:
           plugin_id: result
           empty: false
           content: 'Displaying @start - @end of @total Documents'
+        area_text_custom:
+          id: area_text_custom
+          table: views
+          field: area_text_custom
+          relationship: none
+          group_type: group
+          admin_label: ''
+          plugin_id: text_custom
+          empty: true
+          content: "<div>\r\n<a href=\"/admin/structure/cm_document/add\" class=\"button button--primary\"> ADD NEW CONTENT MODEL DOCUMENT</a>\r\n</div>"
+          tokenize: false
       footer: {  }
       display_extenders: {  }
     cache_metadata:
