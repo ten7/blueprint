@@ -631,10 +631,9 @@ display:
         type: normal
         title: 'Blueprint Dashboard'
         description: 'Blueprint Dashboard displays content model documents'
-        weight: 999
+        weight: 9999
         expanded: false
         menu_name: admin
-        parent: system.admin_structure
         context: '0'
     cache_metadata:
       max-age: -1
