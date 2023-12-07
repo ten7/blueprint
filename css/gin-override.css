@@ -1,7 +1,32 @@
+/**
+ * Add the T7 logo to the dashboard icon.
+ */
 .toolbar-icon.toolbar-icon-views-viewviews-blueprint-dashboard-cm-documents::before {
-  mask-image: url('../assets/icon/T7-sq.svg') !important;
-  -webkit-mask-image: url('../assets/icon/T7-sq.svg') !important;
-  background-image: url('../assets/icon/T7-sq.svg') !important;
-  width: 18px !important;
-  left: 10px !important;
+  mask-image: url('../assets/icon/T7_Logo_Dark_BKG_Border_black.svg') !important;
+  mask-size: contain !important;
+  -webkit-mask-image: url('../assets/icon/T7_Logo_Dark_BKG_Border_black.svg') !important;
+  -webkit-mask-size: contain !important;
+  background-image: url('../assets/icon/T7_Logo_Dark_BKG_Border_black.svg') !important;
+  width: 30px!important;
+  left: 3px !important;
+  background-color: transparent !important;
+
+}
+
+/**
+  * Adjust styles in the main gin content block.
+ */
+#block-gin-content {
+
+  /* Add space to the between the body field and the gin layer wrapper. */
+  .field--name-field-body + .gin-layer-wrapper {
+    margin-top: 3rem !important;
+  }
+}
+
+/**
+ * Adjust styles for tables in gin.
+ */
+table tr:hover, table .draggable-table.tabledrag-disabled tr:hover {
+  background: transparent !important;
 }
