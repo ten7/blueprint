@@ -1,0 +1,10 @@
+<?php
+
+use Drupal\gin\GinSettings; // Optional.
+
+/**
+ * Implements hook_page_attachments()
+ */
+function blueprint_page_attachments(array &$attachments) {
+  $attachments['#attached']['library'][] = 'blueprint/gin-override';
+}

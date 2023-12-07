@@ -1,0 +1,7 @@
+.toolbar-icon.toolbar-icon-views-viewviews-blueprint-dashboard-cm-documents::before {
+  mask-image: url('../assets/icon/T7-sq.svg') !important;
+  -webkit-mask-image: url('../assets/icon/T7-sq.svg') !important;
+  background-image: url('../assets/icon/T7-sq.svg') !important;
+  width: 18px !important;
+  left: 10px !important;
+}
