@@ -30,3 +30,8 @@
 table tr:hover, table .draggable-table.tabledrag-disabled tr:hover {
   background: transparent !important;
 }
+.sortable thead th:not(.no-sort) {
+  cursor: pointer;
+  position: sticky;
+  top: 0;
+}
